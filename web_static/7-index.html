@@ -1,143 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-<<<<<<< HEAD
-<head>
-	<meta charset="utf-8">
-	<title>AirBnB clone</title>
-	<link rel="stylesheet" href="styles/4-common.css">
-	<link rel="stylesheet" href="styles/6-filters.css">
-	<link rel="stylesheet" href="styles/3-header.css">
-	<link rel="stylesheet" href="styles/3-footer.css">
-	<link rel="stylesheet" href="styles/7-places.css">
-	<link rel="icon" href="images/icon.png">
-</head>
-<body>
-	<header></header>
-	<div class="container">
-		<section class="filters">
-			<div class="locations">
-				<h3>States</h3>
-				<h4>ie. Addis Ababa, Dire Dawa...</h4>
-				<div class="popover">
-					<h2>Addis Ababa</h2>
-					<ul>
-						<li>Bole</li>
-						<li>piassa</li>
-						<li>Mexico</li>
-					</ul>
-					<h2>Dire Dawa</h2>
-					<ul>
-						<li>Konel</li>
-						<li>Ashewa</li>
-						<li>Kezira</li>
-					</ul>
-				</div>
-			</div><div class="amenities">
-				<h3>Amenities</h3>
-				<h4>ie. Internet,Kitchen ...</h4>
-				<div class="popover">
-					<ul>
-						<li>Internet</li>
-						<li>Tv</li>
-						<li>Kitchen</li>
-						<li>Iron</li>
-						<li>Swimming pool</li>
-					</ul>
-				</div>
-			</div>
-			<button>Search</button>	
-		</section>
-		<section class="places">
-		<h1>Places</h1>
-			<article>
-				<h2>Villa</h2>
-			</article><article>
-				<h2>Apartment</h2>
-			</article><article>
-				<h2>Tiny Home</h2>
-			</article><article>
-				<h2>VIP Sweet</h2>
-			</article>
-		</section>
-	</div>
-	<footer>
-		Best School
-	</footer>
-</body>
-=======
-  <head>
-    <meta charseti="utf-8">
-    <link rel="stylesheet" href="styles/8_1-common.css">
-    <link rel="stylesheet" href="styles/8_2-header.css">
-    <link rel="stylesheet" href="styles/8_3-footer.css">
-    <link rel="stylesheet" href="styles/8_4-filters.css">
-    <link rel="stylesheet" href="styles/8_5-places.css">
-    <link rel="icon" href="image/another-icon.png" type="image/png">
-    <title>Your Airbnb Experience</title>
-  </head>
-  <body>
-    <header>
-      <div class="custom-logo">
-        <img src="image/custom-logo.png" alt="Custom Logo">
-      </div>
-    </header>
-    <div class="container">
-      <section class="custom-filters">
-        <div class="filter-group">
-          <h3>Locations</h3>
-          <h4>Explore different states and cities</h4>
-          <ul class="popover">
-            <li>
-              <h2>California:</h2>
-              <ul>
-                <li>San Francisco</li>
-                <li>Mountain View</li>
-              </ul>
-            </li>
-            <li>
-              <h2>New York:</h2>
-              <ul>
-                <li>Manhattan</li>
-                <li>Brooklyn</li>
-              </ul>
-            </li>
-          </ul>
+    <head>
+        <meta charset="utf-8">
+        <title>AirBnB clone</title>
+        <link rel="stylesheet" type="text/css" href="styles/4-common.css" />
+        <link rel="stylesheet" type="text/css" href="styles/3-header.css" />
+        <link rel="stylesheet" type="text/css" href="styles/3-footer.css" />
+        <link rel="stylesheet" type="text/css" href="styles/6-filters.css" />
+        <link rel="stylesheet" type="text/css" href="styles/7-places.css" />
+        <link rel='shortcut icon' href="../images/icon.png" />
+    </head>
+    <body>
+        <header> </header>
+        <div class="container">
+            <section class="filters">
+                <button>
+                    Search
+                </button>
+                <div class="locations">
+                    <h3>
+                        States
+                    </h3>
+                    <h4>
+                        California, Arizona...
+                    </h4>
+                    <ul class="popover">
+                            <li>
+                                <h2>Arizona:</h2>
+                            </li>
+                            <li>
+                                <ul>
+                                    <li>Page</li>
+                                    <li>Page2</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h2>California:</h2>
+                            </li>
+                            <li>
+                                <ul>
+                                    <li>San Francisco</li>
+                                    <li>Los Altos</li>
+                                </ul>
+                            </li>
+                    </ul>
+
+                </div>
+                <div class="amenities">
+                    <h3>
+                        Amenities
+                    </h3>
+                    <h4>
+                        Internet, Kitchen...
+                    </h4>
+                    <ul class="popover">
+                            <li>Internet</li>
+                            <li>TV</li>
+                            <li>Kitchen</li>
+                            <li>Iron</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="places">
+                <h1>Places</h1>
+                <article>
+                    <h2>My Home</h2>
+                </article>
+                <article>
+                    <h2>Tiny House</h2>
+                </article>
+                <article>
+                    <h2>A suite</h2>
+                </article>
+            </section>
         </div>
-        <div class="filter-group">
-          <h3>Amenities</h3>
-          <h4>Choose your desired amenities</h4>
-          <ul class="popover">
-            <li>Laundry</li>
-            <li>Internet</li>
-            <li>Television</li>
-            <li>Pool</li>
-          </ul>
-        </div>
-        <button>
-          Search
-        </button>
-      </section>
-      <section class="custom-places">
-        <h1>Places</h1>
-        <article>
-          <h2>My home</h2>
-          <p>Feel at home with this cozy space.</p>
-        </article>
-        <article>
-          <h2>Tiny house</h2>
-          <p>Experience minimalist living in a tiny house.</p>
-        </article>
-        <article>
-          <h2>A suite</h2>
-          <p>Luxurious suite with all the amenities you need.</p>
-        </article>
-      </section>
-    </div>
-    <footer>
-      <p>
-        Your Airbnb Experience
-      </p>
-    </footer>
-  </body>
->>>>>>> 318b41a6c38b075d14b755dfac0537782db8ff65
+        <footer>
+            <p>Holberton School</p>
+        </footer>
+    </body>
 </html>

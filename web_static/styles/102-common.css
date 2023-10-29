@@ -1,22 +1,19 @@
-/*
- * === Global style ===
- */
-
-/* Global style */
-body{
-    color: #484848;
-    font: 14px Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
-}
 html, body {
-   width: 100%;
-   overflow-x: hidden;
+    height: 100%;
 }
-.container{
-   margin: 30px auto;
-   max-width: 1000px;
+body {
+    margin: 0px;
+    padding: 0px; 
+    color: #484848;
+    font-size: 14px;
+    font-family: Circular, "Helvetica Neue",Helvetica,Arial,sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.container {
+    max-width: 1000px;
+    margin: 30px auto;
+    width: 100%;
+    flex: 1 0 auto;
 }
 
-/*strong*/
-strong {
-  font-weight: bold;
-}
